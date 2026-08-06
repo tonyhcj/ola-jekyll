@@ -1,0 +1,77 @@
+sobre : '"Às vezes, são as pessoas que ninguém espera nada que fazem as coisas que ninguém consegue imaginar." _Alan Turing'
+
+present: |
+  Eis o site que estamos, feito com o <a class="link-cont" href="/especial.html"> Jekyll</a>.
+  <br><br/>Onde meu primeiro contato aconteceu no laboratório <a class="link-cont" href="https://alice.ufsj.edu.br/" target ="_blank">ALICE<a/> do qual sou integrante.<br><br/> 
+  Desde então, me envolvo com este site compartilhando um pouco sobre meu ponto de vista sobre projetos que <a class="link-cont" href="/index.html#projetos">participo <a/>e <a class="link-cont" href="/index.html#projetos">desenvolvo.<a/>
+  <br></br>
+  Seja bem-vindo e fique à vontade para conhecer meu trabalho!
+
+atualmente: |
+  ...participo de um projeto de um software desktop chamado <a class="link-cont" href="https://git.alice.ufsj.edu.br/fls/pitiupi" target="_blank">Pitiupi</a>, uma ferramenta P2P. O projeto é desenvolvido em Java e possui uma arquitetura baseada em plugins.
+   Cada módulo é compilado de forma independente utilizando o Ant,
+   permitindo uma estrutura modular e facilitando a expansão da aplicação com novos plugins.  
+
+participei: |
+ ...em diversos projetos que fortaleceram minhas habilidades em computação, 
+ incluindo<a class="link-cont" href="https://github.com/tonyhcj/projeto-supa-z" target="_blank"> integração de sistemas com APIs e bancos de dados<a/>, 
+ desenvolvimento web com Angular e Docker, criação de aplicações em Ruby utilizando programação 
+ orientada a objetos e desenvolvimento de sistemas em C voltados para análise léxica, redes e protocolos HTTP. 
+ Essas experiências ampliaram meus conhecimentos em desenvolvimento de software, estruturas de dados, 
+ redes de computadores e integração de tecnologias.
+
+zap: |
+ <a class="link-cont" href ="https://wa.me/5531991730236" target="_blank">Para conversas rapidas aqui é o lugar!<a/>
+git: |
+ <a class="link-cont" href="https://github.com/tonyhcj" target="_blank">Deixe uma estrela nos meus projetos !<a/>
+
+link: |
+  <a class="link-cont" href="https://www.linkedin.com/in/tony-jr-07b1a323a/" target="_blank">Aqui é minha rede social passe por lá !<a/>
+mail: |
+ <a class="link-cont" href="https://mail.google.com/mail/?view=cm&fs=1&to=mneoacme@gmail.com" target="_target" >Conversas que exigem cuidados é aqui!</a>  
+
+
+site: | 
+ <section id="apresentacao">
+    
+    <h1 class="primeiro-title">Sobre o Jekyll</h1>
+    <p class="primeiro-p">
+        Este projeto foi desenvolvido com <strong>Jekyll</strong>, um gerador de sites
+        estáticos.<br><br/> Ele transforma arquivos em Markdown, HTML e YAML<br><br/>
+        em páginas prontas para publicação, utilizando layouts e templates com
+        Liquid. <br><br/>Como o resultado é um site totalmente estático, ele oferece maior<br><br/>
+        desempenho, segurança e facilidade de hospedagem.
+    </p>
+  
+    <h2 class="segundo-title">Curiosidades</h2>
+    <p class="segundo-u">
+        Criado por Tom Preston-Werner, cofundador do GitHub.<br><br/>
+        É o gerador oficial do GitHub Pages.<br><br/>
+        Muito utilizado em blogs, portfólios e documentações.<br><br/>
+        Permite reutilizar componentes e automatizar a criação das páginas.<br><br/>
+    </p>
+    
+    <h2 class="terceiro-title">Estrutura do Projeto</h2>
+ 
+    <p class="terceiro-u">
+        <strong>_config.yml:</strong> configurações gerais do site.<br><br/>
+        <strong>_layouts:</strong> modelos utilizados pelas páginas.<br><br/>
+        <strong>_includes:</strong> componentes reutilizáveis, como menu e rodapé.<br><br/>
+        <strong>_data:</strong> arquivos YAML com informações do site.<br><br/>
+        <strong>assets:</strong> imagens, estilos SCSS e scripts JavaScript.<br><br/>
+        <strong>index.html</strong> e <strong>especial.md:</strong> páginas geradas automaticamente pelo Jekyll.<br><br/>
+    </p>
+
+ </section>
+
+
+coluna : |
+              <div class="coluna-lateral">
+                <div class="foto-perfil">
+                    <img src="/assets/images/perfil.png" alt="Minha foto">
+                </div>
+
+                <p class="para-coluna">'"Às vezes, são as pessoas que ninguém espera nada que fazem as coisas que ninguém consegue imaginar." _Alan Turing'</p>
+             
+              </div>
+              

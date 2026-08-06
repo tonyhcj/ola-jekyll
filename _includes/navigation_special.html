@@ -1,0 +1,14 @@
+    <nav class="top-nav">
+
+        {% for item in site.data.pages %}
+        {% assign link = item.link %}
+            
+        <a href="{{ item.link }}"
+            class="{% if page.url == link %}currenttop{% endif %}">
+            {{ item.name }}
+        </a>
+        {% endfor %}
+
+    </nav>
+    {{ site.data.perfil.site }}
+    

@@ -1,0 +1,38 @@
+<button class="btn-menu" id="btn" onclick="toggleMenu()">☰</button>
+
+    <nav id="sidebar">
+
+        {% for item in site.data.navigation %}
+
+        <a href="{{ item.link }}" class="nav-link">
+        {{ item.name }}
+        </a>
+
+        {% endfor %}
+
+    </nav>
+
+ <nav class="top-nav">
+    {% for item in site.data.pages %}
+    {% assign clean_link = item.link | split: '#' | first %}
+    {% assign current_url = page.url %}
+    {% if current_url == "/" %}
+      {% assign current_url = "/index.html" %}
+    {% endif %}
+
+    <a href="{{ item.link }}"
+        class="{% if current_url == clean_link %}currenttop{% endif %}">
+        {{ item.name }}
+    </a>
+    {% endfor %}
+</nav>
+
+
+<script>
+function toggleMenu() {
+    const menu = document.getElementById('sidebar');
+    const botao = document.getElementById('btn');
+    menu.classList.toggle('menu-open');
+    botao.classList.toggle("ativo");
+}
+</script>

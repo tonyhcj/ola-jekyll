@@ -1,0 +1,7 @@
+- name: Home
+  link: "/index.html#inicio"
+
+- name: Sobre o site 
+  link: "/especial.html"
+
+
