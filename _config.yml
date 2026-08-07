@@ -1,3 +1,6 @@
+url: "https://tonyhcj.github.io"
+baseurl: "/ola-jekyll"
+
 collections:
   authors:
     output: true
@@ -15,3 +18,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed

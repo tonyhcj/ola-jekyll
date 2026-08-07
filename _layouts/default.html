@@ -6,9 +6,9 @@
                 {{ page.title }}
             </title>
           
-           <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+           <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
 
-            <link rel="stylesheet" href="/assets/css/main.css">
+            <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
             {% feed_meta %}
             {% seo %} 
         </head>
@@ -19,6 +19,6 @@
                 {{ content }}
             </main>
             {% include footer.html %}
-            <script src="/assets/js/scroll-pages.js"></script>
+            <script src="{{ '/assets/js/scroll-pages.js' | relative_url }}"></script></script>
         </body>
 </html>
